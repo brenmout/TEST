@@ -1,0 +1,237 @@
+.titel {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+  body {
+    background-image: url("../img/achtergrond_desktop.png"); 
+    background-color: white;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#witvlak {
+background-color: white;
+border-radius:10px;
+}
+
+.groepkader {
+  padding-bottom: 30px;
+}
+
+
+#image{
+  padding: 30px;
+}
+
+.col-md-5 {
+  margin-top: 30px;
+}
+
+.w-50 {
+margin-left: 70px;
+margin-top: 50px;
+}
+
+.bijtekst {
+margin-left: 70px;
+margin-top: 10px;
+}
+
+.shop {
+  width:30px;
+  height:30px;
+  background-color: white;
+  border-radius:7px;
+  float: right;
+  padding: 8px 8px 8px 8px;
+  
+}
+
+.center{
+  float: none;
+  margin: 0 auto;
+}
+
+.box{
+	width:250px;
+  height:50px;
+  background-color: black;
+  border-radius:15px;
+}
+
+.box img{
+  width: 125 px;
+  height:25px;
+  margin: 10px 65px;
+
+}
+
+.box2{
+  width:250px;
+  height:50px;
+  background-color: black;
+  border-radius:15px;
+  position: relative;
+}
+
+.box2 img{
+  width: 150px;
+  margin: 10px 40px;
+}
+
+.margin-button{
+  margin: 40px 0;
+}
+
+h1 {
+ font-family: "lato";
+ font-size: 35px;
+ color: white;
+}
+
+h2 {
+  margin-top: -5px;
+  font-family: "lato";
+  font-size: 18px;
+  font-weight: bolder;
+  color:white;
+ }
+
+ h3 {
+  font-family: "lato";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: lighter;
+  color:white;
+ }
+
+ p {
+  font-family: "lato";
+  font-size: 16px;
+ }
+
+ span {
+  font-family: "lato";
+  font-size: 13px;
+  padding: 35px;
+ }
+
+ ol {
+  font-family: "lato";
+  list-style-position: initial;
+
+}
+
+ul {
+margin: -254px 100px 10px 200px;
+list-style-type: none;
+
+}
+
+.gv-1 {
+  height: 85px;
+  position: absolute;
+  background:#0077A3;
+  background: -webkit-linear-gradient(left, #0077A3 , #002B52);
+  background: -o-linear-gradient(right, #0077A3, #002B52);
+  background: -moz-linear-gradient(right, #0077A3, #002B52);
+  background: linear-gradient(to right, #0077A3 , #002B52);
+  width: 97.4%;
+  margin: auto;
+  border-radius:10px 10px 0px 0px;
+}
+
+.gv-2 {
+  height: 85px;
+  position: absolute;
+  background:#D23127;
+  background: -webkit-linear-gradient(left, #D23127 , #F99F1C);
+  background: -o-linear-gradient(right, #D23127, #F99F1C);
+  background: -moz-linear-gradient(right, #D23127, #F99F1C);
+  background: linear-gradient(to right, #D23127 , #F99F1C);
+  width: 97.4%;
+  margin: auto;
+  border-radius:10px 10px 0px 0px;
+}
+
+.gv-3 {
+  height: 85px;
+  position: absolute;
+  background:#EE2A7B;
+  background: -webkit-linear-gradient(left, #EE2A7B ,#897AB9);
+  background: -o-linear-gradient(right, #EE2A7B, #897AB9);
+  background: -moz-linear-gradient(right,#EE2A7B, #897AB9);
+  background: linear-gradient(to right,#EE2A7B , #897AB9);
+  width: 97.4%;
+  margin: auto;
+  border-radius:10px 10px 0px 0px;
+}
+
+.margin-button-1 {
+  background:#0077A3;
+  background: -webkit-linear-gradient(left, #0077A3 , #002B52);
+  background: -o-linear-gradient(right, #0077A3, #002B52);
+  background: -moz-linear-gradient(right, #0077A3, #002B52);
+  background: linear-gradient(to right, #0077A3 , #002B52);
+}
+
+.margin-button-2 {
+  background:#D23127;
+  background: -webkit-linear-gradient(left, #D23127 , #F99F1C);
+  background: -o-linear-gradient(right, #D23127, #F99F1C);
+  background: -moz-linear-gradient(right, #D23127, #F99F1C);
+  background: linear-gradient(to right, #D23127 , #F99F1C);
+}
+
+.margin-button-3 {
+  background:#EE2A7B;
+  background: -webkit-linear-gradient(left, #EE2A7B ,#897AB9);
+  background: -o-linear-gradient(right, #EE2A7B, #897AB9);
+  background: -moz-linear-gradient(right,#EE2A7B, #897AB9);
+  background: linear-gradient(to right,#EE2A7B , #897AB9);
+}
+
+.kader-1 {
+  color:#fff;background-color:#E9F6F8;
+  height: 270px;
+  width: 97.3%;
+  position: absolute;
+  margin: -30px;
+  margin-top: 115px;
+}
+
+.kader-2 {
+  color:#fff;background-color:#F4F0EB;
+  height: 270px;
+  width: 97.3%;
+  position: absolute;
+  margin: -30px;
+  margin-top: 115px;
+}
+
+.kader-3 {
+  color:#fff;background-color:#F3EDF6;
+  height: 270px;
+  width: 97.3%;
+  position: absolute;
+  margin: -30px;
+  margin-top: 115px;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
