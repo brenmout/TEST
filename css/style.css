@@ -21,7 +21,6 @@ border-radius:10px;
   padding-bottom: 30px;
 }
 
-
 #image{
   padding: 30px;
 }
@@ -35,9 +34,8 @@ margin-left: 70px;
 margin-top: 50px;
 }
 
-.bijtekst {
-margin-left: 70px;
-margin-top: 10px;
+.col-md-7 {
+margin-top: 37px;
 }
 
 .shop {
@@ -67,19 +65,6 @@ margin-top: 10px;
   height:25px;
   margin: 10px 65px;
 
-}
-
-.box2{
-  width:250px;
-  height:50px;
-  background-color: black;
-  border-radius:15px;
-  position: relative;
-}
-
-.box2 img{
-  width: 150px;
-  margin: 10px 40px;
 }
 
 .margin-button{
@@ -113,24 +98,19 @@ h2 {
   font-size: 16px;
  }
 
- span {
+ .table{
+  left: -20px;
+  line-height: 0.1em;
+  font-size: 13px;
+ }
+
+span {
   font-family: "lato";
   font-size: 13px;
   padding: 35px;
  }
 
- ol {
-  font-family: "lato";
-  list-style-position: initial;
-
-}
-
-ul {
-margin: -254px 100px 10px 200px;
-list-style-type: none;
-
-}
-
+ @media (min-width: 692px) { 
 .gv-1 {
   height: 85px;
   position: absolute;
@@ -143,7 +123,24 @@ list-style-type: none;
   margin: auto;
   border-radius:10px 10px 0px 0px;
 }
+}
 
+@media (max-width: 576px) {
+  .gv-1 {
+    height: 85px;
+    position: absolute;
+    background:#0077A3;
+    background: -webkit-linear-gradient(left, #0077A3 , #002B52);
+    background: -o-linear-gradient(right, #0077A3, #002B52);
+    background: -moz-linear-gradient(right, #0077A3, #002B52);
+    background: linear-gradient(to right, #0077A3 , #002B52);
+    width: 92.4%;
+    margin: auto;
+    border-radius:10px 10px 0px 0px;
+  }
+  }
+
+@media (min-width: 692px) {
 .gv-2 {
   height: 85px;
   position: absolute;
@@ -156,7 +153,24 @@ list-style-type: none;
   margin: auto;
   border-radius:10px 10px 0px 0px;
 }
+}
 
+@media (max-width: 576px) {
+  .gv-2 {
+    height: 85px;
+    position: absolute;
+    background:#D23127;
+    background: -webkit-linear-gradient(left, #D23127 , #F99F1C);
+    background: -o-linear-gradient(right, #D23127, #F99F1C);
+    background: -moz-linear-gradient(right, #D23127, #F99F1C);
+    background: linear-gradient(to right, #D23127 , #F99F1C);
+    width: 92.4%;
+    margin: auto;
+    border-radius:10px 10px 0px 0px;
+  }
+  }
+
+@media (min-width: 692px) {
 .gv-3 {
   height: 85px;
   position: absolute;
@@ -169,6 +183,22 @@ list-style-type: none;
   margin: auto;
   border-radius:10px 10px 0px 0px;
 }
+}
+
+@media (max-width: 576px) {
+  .gv-3 {
+    height: 85px;
+    position: absolute;
+    background:#EE2A7B;
+    background: -webkit-linear-gradient(left, #EE2A7B ,#897AB9);
+    background: -o-linear-gradient(right, #EE2A7B, #897AB9);
+    background: -moz-linear-gradient(right,#EE2A7B, #897AB9);
+    background: linear-gradient(to right,#EE2A7B , #897AB9);
+    width: 92.4%;
+    margin: auto;
+    border-radius:10px 10px 0px 0px;
+  }
+  }
 
 .margin-button-1 {
   background:#0077A3;
@@ -184,6 +214,7 @@ list-style-type: none;
   background: -o-linear-gradient(right, #D23127, #F99F1C);
   background: -moz-linear-gradient(right, #D23127, #F99F1C);
   background: linear-gradient(to right, #D23127 , #F99F1C);
+  margin-top: 20px;
 }
 
 .margin-button-3 {
@@ -192,34 +223,82 @@ list-style-type: none;
   background: -o-linear-gradient(right, #EE2A7B, #897AB9);
   background: -moz-linear-gradient(right,#EE2A7B, #897AB9);
   background: linear-gradient(to right,#EE2A7B , #897AB9);
+  margin-top: 20px;
 }
 
+.cover{
+  margin-top: 43px;
+}
+
+.cover-1{
+  margin-top: 67px;
+}
+
+@media (min-width: 992px) { 
 .kader-1 {
   color:#fff;background-color:#E9F6F8;
-  height: 270px;
+  height: 260px;
   width: 97.3%;
   position: absolute;
   margin: -30px;
-  margin-top: 115px;
+  margin-top: 144px;
+}
 }
 
+@media (max-width: 576px) { 
+  .kader-1 {
+    color:#fff;background-color:#E9F6F8;
+    height: 300px;
+    width: 92.4%;
+    position: absolute;
+    margin: -30px;
+    margin-top: 144px;
+  }
+  }
+
+@media (min-width: 992px) { 
 .kader-2 {
   color:#fff;background-color:#F4F0EB;
-  height: 270px;
+  height: 260px;
   width: 97.3%;
   position: absolute;
   margin: -30px;
-  margin-top: 115px;
+  margin-top: 120px;
+}
 }
 
+@media (max-width: 576px) {
+  .kader-2 {
+    color:#fff;background-color:#F4F0EB;
+    height: 260px;
+    width: 92.4%;
+    position: absolute;
+    margin: -30px;
+    margin-top: 120px;
+  }
+  }
+
+@media (min-width: 992px) { 
 .kader-3 {
   color:#fff;background-color:#F3EDF6;
-  height: 270px;
+  height: 260px;
   width: 97.3%;
   position: absolute;
   margin: -30px;
-  margin-top: 115px;
+  margin-top: 120px;
 }
+}
+
+@media (max-width: 576px) {
+  .kader-3 {
+    color:#fff;background-color:#F3EDF6;
+    height: 260px;
+    width: 92.4%;
+    position: absolute;
+    margin: -30px;
+    margin-top: 120px;
+  }
+  }
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
