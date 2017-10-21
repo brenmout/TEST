@@ -2,6 +2,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
   body {
     background-image: url("../img/achtergrond_desktop.png"); 
     background-color: white;
@@ -298,6 +299,10 @@ span {
     margin: -30px;
     margin-top: 120px;
   }
+  }
+
+  .end {
+    height: 30px;
   }
 
 // Extra small devices (portrait phones, less than 576px)
